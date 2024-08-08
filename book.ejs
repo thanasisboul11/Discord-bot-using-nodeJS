@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= book.volumeInfo.title %></title>
+</head>
+<body>
+    <h1><%= book.volumeInfo.title %></h1>
+    <p><strong>Author(s):</strong> <%= book.volumeInfo.authors.join(', ') %></p>
+    <p><strong>Publisher:</strong> <%= book.volumeInfo.publisher %></p>
+    <p><strong>Published Date:</strong> <%= book.volumeInfo.publishedDate %></p>
+    <p><strong>Pages:</strong> <%= book.volumeInfo.pageCount %></p>
+    <p><strong>Description:</strong> <%= book.volumeInfo.description %></p>
+    
+</body>
+</html>
